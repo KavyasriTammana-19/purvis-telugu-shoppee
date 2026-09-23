@@ -1,0 +1,60 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    background-color: #faf7f2;
+    color: #1e1b18;
+    overflow-x: hidden;
+  }
+}
+
+/* Custom organic non-box floating animation and glass visual effects */
+.glass-pill {
+  background: rgba(255, 255, 255, 0.75);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 20px 40px -15px rgba(184, 115, 51, 0.12);
+}
+
+.organic-blob-1 {
+  border-radius: 60% 40% 70% 30% / 60% 30% 70% 40%;
+}
+
+.organic-blob-2 {
+  border-radius: 30% 70% 40% 60% / 50% 60% 40% 50%;
+}
+
+.arch-card {
+  border-radius: 120px 120px 32px 32px;
+}
+
+.pill-card {
+  border-radius: 9999px;
+}
+
+@keyframes float {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-12px) rotate(1.5deg); }
+}
+
+.animate-float-slow {
+  animation: float 6s ease-in-out infinite;
+}
+
+.animate-float-fast {
+  animation: float 3.5s ease-in-out infinite;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #f1ebd9;
+}
+::-webkit-scrollbar-thumb {
+  background: #d4a359;
+  border-radius: 10px;
+}
