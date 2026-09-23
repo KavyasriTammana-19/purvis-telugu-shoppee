@@ -17,8 +17,8 @@ export const translations = {
       liveShoppingBtn: "Book Live Video Shopping 📹",
       exploreServicesBtn: "Explore Categories 🛍️",
       stats: {
-        clients: "1,250+ Happy NRI Clients",
-        followers: "52.8K+ Instagram Family",
+        clients: "50+ Happy NRI Clients",
+        followers: "600+ Instagram Family",
         deliveries: "100% Doorstep Global Delivery"
       }
     },
@@ -107,6 +107,64 @@ export const translations = {
         { title: "Safe International Freight", desc: "Sealed leak-proof & shock-proof box packing." }
       ]
     },
+    reviews: {
+      badge: "⭐ Client Love & Feedback",
+      title: "What Our NRI & Domestic Clients Say",
+      subtitle: "Real stories from happy shoppers across USA, UK, Dubai & India",
+      list: [
+        {
+          name: "Lakshmi",
+          location: "USA 🇺🇸",
+          service: "Custom Wedding Items & Kobbari Bondam",
+                    review: "Live video call shopping felt like I was physically present in Vijayawada shops! The packing was super safe and reached Dallas in pristine condition!.",
+
+          rating: 5
+        },
+        {
+          name: "Prameela",
+          location: "UK 🇬🇧",
+          service: "Live Video Shopping & Mangalagiri Sarees",
+                    review: "Mounika garu designed carved coconuts and dry fruit jadas for my daughter's wedding.The saree selection and blouse customisation were top class ",
+
+          rating: 5
+        },
+        {
+          name: "Uday",
+          location: "Dubai 🇦🇪",
+          service: "Return Gifts & Sweet Boxes",
+          review: "Ordered 100+ potli return gift bags for our housewarming in Dubai. Delivered on time with high quality finish. Highly recommended!",
+          rating: 5
+        },
+        {
+          name: "Vijaya",
+          location: "Vijayawada 🇮🇳",
+          service: "Home & Festival Decor",
+          review: "Super fast shopping service within Vijayawada. Very polite, authentic quality items and reasonable pricing!",
+          rating: 5
+        },
+        {
+          name: "Shilpa",
+          location: "Tirupati 🇮🇳",
+          service: "1 Gram Gold Temple Jewellery",
+          review: "Got beautiful antique gold temple jewellery sets customized for our family function. The finish looks just like real gold!",
+          rating: 5
+        },
+        {
+          name: "Tanusha",
+          location: "Hyderabad 🇮🇳",
+          service: "Authentic Avakaya & Sweets",
+          review: "Home-made pickles taste exactly like traditional grandmom style! Air-tight packaging ensured zero leakage.",
+          rating: 5
+        },
+        {
+          name: "Datta",
+          location: "Bangalore 🇮🇳",
+          service: "Engagement Platters & Viyyapurallu",
+          review: "Outstanding work on engagement ring platters and custom viyyapurallu hampers. Very reliable personal shopper!",
+          rating: 5
+        }
+      ]
+    },
     faqs: {
       badge: "❓ Got Questions?",
       title: "Discover More Answers",
@@ -185,8 +243,8 @@ export const translations = {
       liveShoppingBtn: "లైవ్ వీడియో షాపింగ్ బుక్ చేయండి 📹",
       exploreServicesBtn: "కేటగిరీలు చూడండి 🛍️",
       stats: {
-        clients: "1,250+ సంతోషకరమైన NRI కస్టమర్లు",
-        followers: "52.8K+ ఇన్‌స్టాగ్రామ్ ఫ్యామిలీ",
+        clients: "50+ సంతోషకరమైన NRI కస్టమర్లు",
+        followers: "600+ ఇన్‌స్టాగ్రామ్ ఫ్యామిలీ",
         deliveries: "100% ఇంటికే డెలివరీ గ్యారెంటీ"
       }
     },
@@ -273,6 +331,62 @@ export const translations = {
         { title: "లైవ్ వీడియో షాపింగ్", desc: "విజయవాడ షాపుల నుండి నేరుగా HD వీడియో కాల్ షాపింగ్." },
         { title: "మీకిష్టమైన కస్టమైజేషన్", desc: "పేర్లు, తేదీలు, థీమ్‌లకు తగినట్లు కస్టమైజ్డ్ పెళ్లి వస్తువులు." },
         { title: "భద్రమైన అంతర్జాతీయ ప్యాకింగ్", desc: "డ్యామేజ్ కాకుండా లీక్-ప్రూఫ్ ప్యాకింగ్." }
+      ]
+    },
+    reviews: {
+      badge: "⭐ కస్టమర్ల అభిప్రాయాలు",
+      title: "మా కస్టమర్లు ఏమంటున్నారంటే...",
+      subtitle: "అమెరికా, యుకే, దుబాయ్ మరియు ఇండియాలోని మా సంతోషకరమైన కస్టమర్ల నిజమైన రివ్యూలు",
+      list: [
+        {
+          name: "Lakshmi",
+          location: "USA 🇺🇸",
+          service: "పెళ్లిళ్ల కస్టమైజేషన్ & కొబ్బరి బొండం",
+          review: "మా అమ్మాయి పెళ్లికి మౌనిక గారు చెక్కిన కొబ్బరి బొండాలు, పిస్తా జడ చాలా బాగా డిజైన్ చేశారు. డల్లాస్‌కి చాలా సేఫ్‌గా ప్యాక్ చేసి పంపారు!",
+          rating: 5
+        },
+        {
+          name: "Prameela",
+          location: "UK 🇬🇧",
+          service: "లైవ్ వీడియో షాపింగ్ & పట్టు చీరలు",
+          review: "లైవ్ వీడియో కాల్ ద్వారా విజయవాడ షాపుల్లో నేరుగా ఉన్నట్లు అనిపించింది! చీరల సెలెక్షన్ మరియు బ్లౌజ్ డిజైనింగ్ సూపర్!",
+          rating: 5
+        },
+        {
+          name: "Uday",
+          location: "Dubai 🇦🇪",
+          service: "రిటర్న్ గిఫ్ట్‌లు & స్వీట్ బాక్స్‌లు",
+          review: "దుబాయ్‌లో మా గృహప్రవేశం కోసం 100+ పోట్లీ గిఫ్ట్ బ్యాగ్‌లు ఆర్డర్ చేశాం. సమయానికి చాలా నాణ్యతతో అందించారు. గ్రేట్ సర్వీస్!",
+          rating: 5
+        },
+        {
+          name: "Vijaya",
+          location: "Vijayawada 🇮🇳",
+          service: "హోమ్ & ఫెస్టివల్ డెకరేషన్",
+          review: "విజయవాడలోనే చాలా వేగంగా షాపింగ్ చేసి ఇచ్చారు. చాలా మర్యాదగా, మంచి నాణ్యమైన వస్తువులు రీజనబుల్ ప్రైస్‌లో లభించాయి!",
+          rating: 5
+        },
+        {
+          name: "Shilpa",
+          location: "Tirupati 🇮🇳",
+          service: "1 గ్రామ్ గోల్డ్ టెంపుల్ జ్యువెలరీ",
+          review: "మా ఫ్యామిలీ ఫంక్షన్ కోసం డిజైన్ చేయించిన ఆంటిక్ జ్యువెలరీ రియల్ గోల్డ్ లాగే ఉంది. ఫినిషింగ్ అద్భుతం!",
+          rating: 5
+        },
+        {
+          name: "Tanusha",
+          location: "Hyderabad 🇮🇳",
+          service: "స్వచ్ఛమైన ఆవకాయ పచ్చళ్ళు & పిండివంటలు",
+          review: "ఇంట్లో చేసిన మామిడికాయ ఆవకాయ నిజంగా అమ్మమ్మ కాలం నాటి రుచితో ఉంది! లీకేజ్ లేకుండా ఎయిర్ టైట్ ప్యాకింగ్ చేశారు.",
+          rating: 5
+        },
+        {
+          name: "Datta",
+          location: "Bangalore 🇮🇳",
+          service: "నిశ్చితార్థం పళ్లెలు & వియ్యపురాల కానుకలు",
+          review: "నిశ్చితార్థం పళ్లెలు మరియు వియ్యపురాల కానుకలు చాలా గ్రాండ్‌గా డిజైన్ చేశారు. చాలా నమ్మకమైన షాపింగ్ సర్వీస్!",
+          rating: 5
+        }
       ]
     },
     faqs: {

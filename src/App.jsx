@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import ServicesPage from './components/ServicesPage';
 import HowItWorks from './components/HowItWorks';
+import ReviewsSection from './components/ReviewsSection';
 import FaqSection from './components/FaqSection';
 import ContactPage from './components/ContactPage';
 import Footer from './components/Footer';
@@ -33,6 +34,7 @@ export default function App() {
             <HeroSection t={t} setActiveTab={setActiveTab} />
             <HowItWorks t={t} setActiveTab={setActiveTab} />
             <ServicesPage t={t} setActiveTab={setActiveTab} />
+            <ReviewsSection t={t} />
             <FaqSection t={t} setActiveTab={setActiveTab} />
             <ContactPage t={t} />
           </>
