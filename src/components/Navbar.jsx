@@ -13,8 +13,8 @@ export default function Navbar({ lang, setLang, t, activeTab, setActiveTab }) {
   ];
 
   return (
-    <header className="sticky top-4 z-50 px-4 md:px-8 max-w-7xl mx-auto">
-      <nav className="glass-pill px-5 py-3 rounded-full flex items-center justify-between transition-all duration-300 shadow-xl border border-amber-100/60">
+    <header className="sticky top-4 z-50 px-3 md:px-6 w-full max-w-[98%] mx-auto">
+      <nav className="glass-pill px-6 py-3.5 rounded-full flex items-center justify-between transition-all duration-300 shadow-xl border border-amber-100/60">
         
         {/* Brand Logo & Name */}
         <div 

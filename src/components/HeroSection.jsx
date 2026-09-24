@@ -3,7 +3,7 @@ import { Video, ShoppingBag, ShieldCheck, Sparkles, Plane, HeartHandshake, Phone
 
 export default function HeroSection({ t, setActiveTab }) {
   return (
-    <section className="relative pt-8 pb-16 px-4 md:px-8 max-w-7xl mx-auto overflow-hidden">
+    <section className="relative pt-6 pb-14 px-4 md:px-10 w-full max-w-[96%] mx-auto overflow-hidden">
       
       {/* Background Organic Floating Blobs */}
       <div className="absolute top-10 left-1/4 w-72 h-72 bg-amber-200/40 rounded-full blur-3xl -z-10 animate-float-slow"></div>

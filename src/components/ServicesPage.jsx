@@ -5,7 +5,7 @@ export default function ServicesPage({ t, setActiveTab }) {
   const [activeCategory, setActiveCategory] = useState('all');
 
   return (
-    <section id="services" className="py-16 px-4 md:px-8 max-w-7xl mx-auto">
+    <section id="services" className="py-16 px-4 md:px-10 w-full max-w-[96%] mx-auto">
       
       {/* Section Header */}
       <div className="text-center max-w-3xl mx-auto space-y-4 mb-12">

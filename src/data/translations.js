@@ -2,10 +2,10 @@ export const translations = {
   en: {
     nav: {
       home: "Home",
-      services: "Services & Items",
-      process: "How It Works",
+      services: "Services",
+      process: "Process",
       faqs: "FAQs",
-      contact: "Contact & Order",
+      contact: "Contact Us",
       tagline: "Your Personal Shopper in Vijayawada",
       whatsappBtn: "Chat on WhatsApp"
     },
@@ -228,12 +228,12 @@ export const translations = {
   te: {
     nav: {
       home: "హోమ్",
-      services: "సేవలు & వస్తువులు",
-      process: "ఇది ఎలా పనిచేస్తుంది",
-      faqs: "ప్రశ్నలు - సమాధానాలు",
-      contact: "సంప్రదించండి & ఆర్డర్",
+      services: "సేవలు",
+      process: "విధానం",
+      faqs: "FAQs",
+      contact: "సంప్రదించండి",
       tagline: "విజయవాడలో మీ పర్సనల్ షాపర్",
-      whatsappBtn: "వాట్సాప్‌లో మాట్లాడండి"
+      whatsappBtn: "వాట్సాప్ చార్ట్"
     },
     hero: {
       badge: "✈️ విజయవాడ నుండి ప్రపంచవ్యాప్తంగా నమ్మకమైన పర్సనల్ షాపింగ్ సేవలు",

@@ -10,7 +10,7 @@ export default function HowItWorks({ t, setActiveTab }) {
   ];
 
   return (
-    <section id="process" className="py-16 px-4 md:px-8 max-w-7xl mx-auto">
+    <section id="process" className="py-16 px-4 md:px-10 w-full max-w-[96%] mx-auto">
       
       {/* Header Pill */}
       <div className="text-center max-w-3xl mx-auto space-y-4 mb-16">

@@ -4,7 +4,7 @@ import { MessageCircle, Heart, MapPin, Phone } from 'lucide-react';
 export default function Footer({ t, setActiveTab }) {
   return (
     <footer className="mt-20 bg-amber-950 text-amber-100 rounded-t-[60px] pt-16 pb-8 px-6 md:px-12 border-t-4 border-amber-500">
-      <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-amber-800/80">
+      <div className="w-full max-w-[96%] mx-auto grid grid-cols-1 md:grid-cols-12 gap-10 pb-12 border-b border-amber-800/80">
         
         {/* Brand Info */}
         <div className="md:col-span-5 space-y-4">
